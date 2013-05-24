@@ -7,7 +7,7 @@ public class FatorialRec {
 	}
 	public static void main(String[] args) {
 		long n = Integer.parseInt(args[0]);
-		System.out.println("O fatorial de "+ n +" �: "+fatorial(n));
+		System.out.println(fatorial(n));
 		
 	}
 
