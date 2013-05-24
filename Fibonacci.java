@@ -6,6 +6,6 @@ public class FibonacciRec {
 
 	public static void main(String[] args) {
 		int n = Integer.parseInt(args[0]);
-		System.out.println("O "+n+"� termo da s�rie fibonacci �: "+fibonacci(n));
+		System.out.println(fibonacci(n));
 	}
 }
