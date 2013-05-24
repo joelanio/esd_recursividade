@@ -1,4 +1,3 @@
-
 public class FibonacciRec {
 	public static int fibonacci(int n){
 		if(n<2)return n;
@@ -7,6 +6,6 @@ public class FibonacciRec {
 
 	public static void main(String[] args) {
 		int n = Integer.parseInt(args[0]);
-		System.out.println("O "+n+"º termo da série fibonacci é: "+fibonacci(n));
+		System.out.println("O "+n+"ï¿½ termo da sï¿½rie fibonacci ï¿½: "+fibonacci(n));
 	}
 }
