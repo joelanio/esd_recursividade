@@ -12,6 +12,6 @@ public class SomaRec {
 	public static void main(String[] args) {
 		int[] numeros = new int[args.length];
 		for(int i =0;i<args.length;i++)	numeros[i] = Integer.parseInt(args[i]);
-		System.out.println("A soma de todos os argumentos �: "+ somaRec(numeros, numeros.length));
+		System.out.println(somaRec(numeros, numeros.length));
 	}
 }
