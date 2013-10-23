@@ -4,7 +4,7 @@ if(n<2) return n;
 else return fibonaccirec(n-2)+fibonaccirec(n-1);
 }
 main(){
-printf("Informe o número");
+printf("Informe o nï¿½mero");
 int num;
 scanf("%d", &num);
 int fib = fibonaccirec(num);
